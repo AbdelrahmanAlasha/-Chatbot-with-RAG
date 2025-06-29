@@ -11,10 +11,10 @@ This project is a simple RAG (Retrieval-Augmented Generation) chatbot that can a
 - Answers questions using retrieved context + Falcon-7B-Instruct
 
 ## 📁 Folder Structure
-rag-pdf-chatbot/
-├── app.ipynb # Main code (Colab Notebook)
-├── requirements.txt # Dependencies
-├── README.md # This file
+- rag-pdf-chatbot/
+- app.ipynb # Main code (Colab Notebook)
+- requirements.txt # Dependencies
+- README.md # This file
 
 
 ## 🧠 Models Used
@@ -28,6 +28,7 @@ Create a virtual environment or use Colab, then install the dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
 📝 Usage
 Upload your PDF/TXT files.
