@@ -10,13 +10,6 @@ This project is a simple RAG (Retrieval-Augmented Generation) chatbot that can a
 - Indexes embeddings using `FAISS` with cosine similarity
 - Answers questions using retrieved context + Falcon-7B-Instruct
 
-## 📁 Folder Structure
-- rag-pdf-chatbot/
-- app.ipynb # Main code (Colab Notebook)
-- requirements.txt # Dependencies
-- README.md # This file
-
-
 ## 🧠 Models Used
 
 - Embedding Model: `multi-qa-MiniLM-L6-cos-v1`
@@ -30,7 +23,7 @@ Create a virtual environment or use Colab, then install the dependencies:
 pip install -r requirements.txt
 ```
 
-📝 Usage
+## 📝 Usage
 Upload your PDF/TXT files.
 
 Run the notebook app.ipynb step-by-step.
